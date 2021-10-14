@@ -1,0 +1,17 @@
+.search input:valid : thẻ input khi nhập giá trị
+.wrapper .search input::placeholder : CSS cho placeholder
+
+=====================================================
+1. Lấy sự kiện keyup và chạy nếu nhận enter
+2. fetch API với value nhập vào
+  2.1. Set các thuộc tính về text
+  2.2 Call API
+  => Sai chỉnh text =>  Done !!!
+  => Đúng => duyệt data
+    2.2.1. Xét text word, tạo thẻ lits synonyms (nếu có ko thì none)
+
+Các chức năng đi kèm:
+  1. Tiếp tục search khi click vào span tags
+  2. Phát âm khi click vào audio
+  --> Xem lại các cách hoạt động với audio
+  3. Xóa text trong khay input khi ko muốn search nữa hoặc gõ sai

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary App</title>
+
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>English Dictionary</header>
+    <!-- Search input -->
+    <div class="search">
+      <input type="text" placeholder="Enter a word" required>
+      <i class='search-icon bx bx-search-alt-2'></i>
+      <i class='close-icon bx bx-x' ></i>
+    </div>
+    <p class="info-text">Type a word and press enter to get meaning, example, pronunciation and synonyms of that typed word.</p>
+    <!-- result search -->
+    <ul>
+      <li class="word">
+        <div class="detail">
+          <p>__</p>
+          <span>___ /__/</span>
+        </div>
+        <i class='bx bxs-volume-full'></i>
+      </li>
+      <div class="content">
+        <li class="meaning">
+          <div class="details">
+            <p>Meaning</p>
+            <span>________________________</span>
+          </div>
+        </li>
+        <li class="example">
+          <div class="details">
+            <p>Example</p>
+            <span>________________________</span>
+          </div>
+        </li>
+        <li class="synonyms">
+          <div class="details">
+            <p>Synonyms</p>
+            <div class="list"></div>
+          </div>
+        </li>
+      </div>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
